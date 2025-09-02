@@ -1,0 +1,77 @@
+
+header {
+  background: aqua;
+  border: 2px solid blue;
+  border-radius: 3px;
+  height: 60px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;       
+}
+nav {
+  background: rgb(13, 62, 154);
+  border: 2px solid rgb(13, 62, 154);
+  border-radius: 2px;
+  height: 40px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+
+main {
+  display: flex;   
+  gap: 10px;
+  margin: 10px;
+}
+
+
+section {
+  background-color: rgb(13, 62, 154);
+  border: 2px solid;
+  border-radius: 3px;
+  width: 70%;              
+  height: 270px;
+  display: flex;
+  flex-direction: column;  
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+}
+
+article {
+  background-color: rgba(30, 127, 117, 0.8);
+  border: 2px solid;
+  border-radius: 3px;
+  width: 90%;
+  height: 200px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+aside {
+  background-color: rgb(0, 181, 236);
+  border: 2px solid;
+  border-radius: 3px;
+  width: 30%;   
+  height: 270px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer {
+  background: aqua;
+  border: 2px solid rgb(13, 62, 154);
+  border-radius: 2px;
+  height: 50px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
